@@ -13,8 +13,6 @@ The swap ratio is a fixed rate defined by DENTNet and may change over time, howe
 
 DENT is a token with a fixed supply. In contrast, DENTX has a variable supply to enable the use of [proof-of-stake](../../core-concepts/proof-of-stake/ "mention") consensus algorithm. DENTNet is not offering a swap of DENTX for DENT.
 
-{% hint style="warning" %}
 Swap from DENTX to DENT is not available on DENTNet.&#x20;
-{% endhint %}
 
 Swapped DENT tokens are stored in a wallet within DENTNet and can be transferred to the circulating supply of the DENT App.

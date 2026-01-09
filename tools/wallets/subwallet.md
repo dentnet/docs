@@ -12,7 +12,7 @@ First, follow the instructions in the SubWallet app to create a new key. You can
 
 In the SubWallet app, tap the menu icon, select "Manage networks" and enable DENTNet.  Follow this video in our tweet to enable DENTNet in the SubWallet app.
 
-{% embed url="https://twitter.com/dentcoin/status/1767142001965691224" %}
+[https://twitter.com/dentcoin/status/1767142001965691224](https://twitter.com/dentcoin/status/1767142001965691224)
 
 ### Enable DENTX and DENT token in UI
 
@@ -20,7 +20,7 @@ After you added the DENTNet network in SubWallet you can enable the DENT token a
 
 Tap on the filter icon and enable "Show zero balance".
 
-<figure><img src="../../.gitbook/assets/Subwallet.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../assets/Subwallet.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### Find your DENTNet account address
 

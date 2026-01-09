@@ -4,9 +4,7 @@ DENTNet supports [Prometheus](https://prometheus.io) to monitor the performance 
 
 You can follow these steps to set up your monitoring, incl. [Grafana](https://grafana.com) or use an individual setup.
 
-{% hint style="danger" %}
 This document is an **example** of how to set up monitoring. Please perform your setup based on your network structure and security setup.
-{% endhint %}
 
 ### Set up a dedicated monitoring machine
 
@@ -14,9 +12,7 @@ The monitoring should run on a machine different from your node. The monitoring 
 
 Make sure your network and firewall setup allows this communication.
 
-{% hint style="warning" %}
 We strongly recommend opening up port 9615 only between your monitoring machine and your node.&#x20;
-{% endhint %}
 
 ### Enable Prometheus port on the DENTNet node(s)
 
@@ -83,9 +79,7 @@ groups:
 
 Next, create a file at `/etc/prometheus/prometheus.yml`.
 
-{% hint style="warning" %}
 Ensure you enter your nodes' correct IPs in the last line of the file ("targets").
-{% endhint %}
 
 <pre class="language-yaml" data-title="prometheus.yml"><code class="lang-yaml">global:
   scrape_interval: 15s

@@ -8,8 +8,6 @@ It provides a set of tools, libraries, and templates that simplify the blockchai
 2. Rust Programming Language: DENTNet is primarily written in the Rust programming language, which is known for its performance, safety, and suitability for blockchain development.
 3. Runtime Environment: Substrate provides a runtime environment that has been modified and optimized for DENTNet.
 
-{% hint style="info" %}
 DENTNet is an independent project and not related to Polkadot or Parity in any way.
-{% endhint %}
 
 The Substrate framework allows the integration into Polkadot. DENTNet is using and contributing to the open-source part of the project but is neither listed nor working to be listed as a parachain on Polkadot.

@@ -4,11 +4,7 @@
 
 Validators have a core function on DENTNet. They create blocks, and each Validator earns rewards for this work.
 
-DENTNet runs a carefully selected set of Validators operated by launch partners and DENT Wireless.
-
-{% hint style="info" %}
 For operating a Validator, please read our **technical** documentation [operating-a-validator](../../../technical-documentation/operating-a-validator/ "mention").&#x20;
-{% endhint %}
 
 ### Validator Rewards
 
@@ -41,9 +37,8 @@ DENTNet has a maximum amount of active validators. Active Validators perform blo
 
 This means Validators with more funds bonded have a higher chance of being selected and earning rewards. You can add more DENTX to your Validator bond anytime to avoid being not selected.
 
-{% hint style="info" %}
 The current number of Validator slots is **20**.
-{% endhint %}
+
 
 
 

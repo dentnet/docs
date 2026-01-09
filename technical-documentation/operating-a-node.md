@@ -1,19 +1,12 @@
 # Operating a Node
 
-This section contains information on how to set up a DENTNet node. DENT Wireless will provide these values for setup to chosen DENTNet node and Validator operators:
-
-* SPEC\_URL\_PROVIDED\_BY\_DENT
-* DOCKER\_URL\_PROVIDED\_BY\_DENT
-* SYNC\_URL\_PROVIDED\_BY\_DENT
-* DOCKER\_PW\_PROVIDED\_BY\_DENT
+This section contains information on how to set up a DENTNet node. 
 
 ### Install docker
 
 First, go to [https://docs.docker.com/engine/install/](https://docs.docker.com/engine/install/), choose your platform, and follow the instructions to install Docker on your computer or server.&#x20;
 
-{% hint style="info" %}
 If you are unfamiliar with Docker, please check the documentation and available videos, e.g., on [https://docs.docker.com/](https://docs.docker.com/).
-{% endhint %}
 
 ### Adjust Power Management
 
@@ -27,16 +20,14 @@ Create a directory for all DENTNet files and download the DENTNet spec file and 
 mkdir dentnet-mainnet
 cd dentnet-mainnet
 
-curl -o docker-compose.yml <DOCKER_URL_PROVIDED_BY_DENT>
-curl -o dentnet_live_spec_raw.json <SPEC_URL_PROVIDED_BY_DENT>
+curl -o docker-compose.yml https://github.com/dentnet/docker-setup/blob/master/docker-compose.yml
+curl -o dentnet_live_spec_raw.json <SPEC_URL>
 ```
 
 Open **port 30333 on your firewall** and forward it to your docker server. The DENTNet Node allows connections from other nodes to build the peer-to-peer network through this port.
 
-{% hint style="warning" %}
 **Only** open port **30333** to the **public.**\
 **Only** access your node **locally** using **RPC** on port 19944.
-{% endhint %}
 
 Create a directory for the chain data.
 
@@ -47,7 +38,7 @@ mkdir -p ./data1/chains/dentnet/
 To get synced up faster download the snapshot provided by DENT. This step can be skipped if you want to let the node sync by itself. Depending on the network speed full sync from 0 might take a few days.
 
 ```
-curl -o - -L <SYNC_URL_PROVIDED_BY_DENT> | tar -xvf - -C ./data1/chains/dentnet/
+curl -o - -L <SYNC_URL> | tar -xvf - -C ./data1/chains/dentnet/
 ```
 
 On Linux machines, please update the access rights for the downloaded data.
@@ -57,12 +48,6 @@ chown -R 101:101 ./data1
 ```
 
 ### Pull the Binary Image
-
-```
-docker login -u dentnet
-```
-
-Paste the password provided by DENT (DOCKER\_PW\_PROVIDED\_BY\_DENT).
 
 ```
 docker compose pull
@@ -90,7 +75,7 @@ to avoid scrolling through all the logs.
 
 A usual output looks like
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 If your node is synced, you see this output normally.
 

@@ -1,8 +1,6 @@
 # Bridge
 
-{% embed url="https://main.dentnet.io/bridge" %}
-Link to DENTNet Bridge
-{% endembed %}
+[https://main.dentnet.io/bridge](Link to DENTNet Bridge)
 
 DENT Bride is a convenient tool designed to facilitate the seamless transfer of DENT tokens and DENTX from the Ethereum network to DENTNet and, if needed, back.
 

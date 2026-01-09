@@ -9,10 +9,3 @@ DENTNet supports the purchase of mobile data packages with different types of si
 ### Usage Handling
 
 To track the usage of balances of their subscribers, operators only need to connect their charging infrastructure with DENTNet.
-
-DENT Wireless has been running a global traffic steering and charging infrastructure "DBOS" that is directly connected to mobile operators and tracks the usage of each subscriber.
-
-As DBOS is a separate network, other operators can integrate it and connect their charging with DENTNet with minimal integration efforts.
-
-This allows other operators to integrate DENTNet and sell mobile data assets either to their subscribers or even to subscribers of other operators.
-

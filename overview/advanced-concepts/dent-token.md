@@ -1,6 +1,6 @@
 # DENT Token
 
-The DENT token is the core of the DENT Wireless mobile data ecosystem. It allows a worldwide marketplace of telecommunication assets on DENTNet. Operators (or Service Providers) can offer telecommunication assets and users can purchase these assets.
+The DENT token is the core of the mobile data ecosystem. It allows a worldwide marketplace of telecommunication assets on DENTNet. Operators (or Service Providers) can offer telecommunication assets and users can purchase these assets.
 
 ### Offering Assets
 
@@ -20,9 +20,7 @@ DENT can be deposited from one DENTNet account to another using the **transfer**
 
 DENTs can be also deposited from ERC20 wallets to DENTNet using the [DENTNet Bridge](../../tools/wallets/polkadotjs.md).&#x20;
 
-{% hint style="info" %}
-&#x20;The total supply of the DENT token is 100B and will not change.
-{% endhint %}
+The total supply of the DENT token is 100B and will not change.
 
 ### Fiat Purchases of Telecommunication Assets
 

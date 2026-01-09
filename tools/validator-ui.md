@@ -20,11 +20,11 @@ To register as a Validator, a Stash Account is needed. Follow these steps to cre
 2. Now switch to your computer and open the **"Accounts"** section of the Validator UI by visiting  [https://main.dentnet.io/polkadotjs/#/accounts](https://main.dentnet.io/polkadotjs/#/accounts).
 3. Click on the "From QR" button and scan the QR code that appeared on your phone. Choose a name for the account and click "Save".&#x20;
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-01-31 at 15.48.24.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../assets/Screenshot 2024-01-31 at 15.48.24.png" alt=""><figcaption></figcaption></figure>
 
 Now you can see the account listed under the "via qr" section.
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-01-31 at 15.49.01.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../assets/Screenshot 2024-01-31 at 15.49.01.png" alt=""><figcaption></figcaption></figure>
 
 If you click on your account, you can copy the address to receive DENTX or look up transactions in the [explorer.md](explorer.md "mention").
 
@@ -32,17 +32,15 @@ If you click on your account, you can copy the address to receive DENTX or look 
 
 Open the UI, and make sure your Stash account is connected (listed in the "via qr" section). Open the section "**Staking**" and select the "**Accounts**" tab or use this link [https://main.dentnet.io/polkadotjs/#/staking/actions](https://main.dentnet.io/polkadotjs/#/staking/actions).
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-01-22 at 10.14.47.png" alt="" width="125"><figcaption></figcaption></figure>
+<figure><img src="../assets/Screenshot 2024-01-22 at 10.14.47.png" alt="" width="125"><figcaption></figcaption></figure>
 
 Press the "**+ Validator**" button in the UI to open the "**Setup Validator**" sheet.
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-01-31 at 16.41.31 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../assets/Screenshot 2024-01-31 at 16.41.31 (1).png" alt=""><figcaption></figcaption></figure>
 
 Select your Stash account in the "stash account" field.&#x20;
 
-{% hint style="warning" %}
 Please be aware that you can stop running a Validator anytime in the Validator UI, but **your funds are locked** for some time after you stop the validation. You can find the exact bonding duration in the Validator UI.
-{% endhint %}
 
 Select your payment destination. It can be the stash account or another account.&#x20;
 
@@ -54,11 +52,9 @@ Set the commission to **10** and allow nominations, as shown in the screenshot.&
 
 The stash account can set the commission percentage. The commission defines how much rewards are distributed directly to the Validator. The rest of the rewards will be distributed to all stakers using the nomination pool.&#x20;
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-01-31 at 08.54.19.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../assets/Screenshot 2024-01-31 at 08.54.19.png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="info" %}
 If a Validator operator changes the commission from 10% to another value, pool operators can remove this Validator from their nomination pools. As a consequence, this Validator will have less stake and will receive fewer rewards.
-{% endhint %}
 
 Finalize the setup by clicking "Bond & Validate". Then sign the transaction.
 

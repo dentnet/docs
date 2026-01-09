@@ -138,11 +138,9 @@ The most commonly used methods for someone interested in submitting transactions
 
 To use this you first need to create a signed transaction to use as a parameter. For example, to send 12345 DENTX from account A to B we first create the signed transaction.&#x20;
 
-{% code overflow="wrap" %}
 ```
 0x55028400d43593c715fdd31c61141abd04a99fd6822c8558854ccde39a5684e7a56da27d01b05ac213bc8831c58f95620e36b5e4ed92fbf60da9760318073a63f6779b73358f3eab02675fed0a695da7a542eed7d4b39e4ca8a5ea764adc57fcb67304d887950200000500008eaf04151687736326c9fea17e25fc5287613693c912909cb226aa4794f26a481b00004405635d4a399d02
 ```
-{% endcode %}
 
 and then submit it by calling the `author_submitExtrinsic` method:
 
@@ -153,9 +151,7 @@ and then submit it by calling the `author_submitExtrinsic` method:
 }' http://localhost:9944/
 ```
 
-{% hint style="info" %}
 Details of how transactions are created can be found in the Polkadot documentation at [Transaction Construction](https://wiki.polkadot.network/docs/build-transaction-construction)
-{% endhint %}
 
 Using @polkadot/api to submit the same transaction is easier as the extrinsic can be created:
 
@@ -185,6 +181,4 @@ async function main () {
 main().catch(console.error).finally(() => process.exit());
 ```
 
-{% hint style="danger" %}
 Note that private keys should never be directly embedded in code as in the above example but be handled securely.
-{% endhint %}

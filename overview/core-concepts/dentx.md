@@ -5,9 +5,7 @@ DENTX is the native unit of exchange of DENTNet, similar to ETH on Ethereum or B
 * pay fees such as transaction fees
 * stake for the security of the network
 
-{% hint style="info" %}
-DENTX has 18 decimal places.&#x20;
-{% endhint %}
+DENTX has 18 decimal places.
 
 #### Token Generation Event <a href="#tge" id="tge"></a>
 
@@ -17,7 +15,7 @@ With the public launch of DENTNet on 5th March 2024, DENTX was released to the p
 
 #### Issuance <a href="#token-issuance" id="token-issuance"></a>
 
-DENTNet needs to be able to issue DENTX to reward validators and stakes at any time in the future. This form of controlled inflation is adjusted based on the total amount staked.&#x20;
+DENTNet needs to be able to issue DENTX to reward validators and stakes at any time in the future. This form of controlled inflation is adjusted based on the total amount staked.
 
 DENTXs are created as rewards and held inactive to be paid out later. A small percentage also goes to the Treasury for future payments. These inactive funds can't be accessed and do not reside in an account.
 
@@ -25,17 +23,10 @@ DENTXs are created as rewards and held inactive to be paid out later. A small pe
 
 It is the total number of units in existence on the network.
 
-{% hint style="info" %}
-The total Issuance of DENTX on block 21,329,110 was 10,084,153,665.822436438824945718 DENTX.
-{% endhint %}
-
 #### Inactive Issuance
 
-It is the total units of outstanding deactivated balance on the network that cannot be used.&#x20;
+It is the total units of outstanding deactivated balance on the network that cannot be used.
 
 This is mainly pending payouts of staking and validating rewards, that are paid out when requested by the owed account.
 
-{% hint style="info" %}
-The inactive Issuance of DENTX on block 21,329,110 was 66,644,957.345944833299860601 DENTX.
-{% endhint %}
 

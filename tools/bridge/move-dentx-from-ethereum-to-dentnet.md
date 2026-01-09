@@ -19,9 +19,7 @@ Follow these steps to move your DENTX from Ethereum to DENTNet:
 * Input the DENTNet address where you want to deposit your tokens by entering the account address.
 * Double-check the accuracy of the address to avoid any errors.
 
-{% hint style="warning" %}
 DENTNet addresses always start with **dx.**
-{% endhint %}
 
 ## **4. Transfer to DENTNet wallet - Confirm Transaction on Explorer:**
 

@@ -1,7 +1,6 @@
----
-cover: .gitbook/assets/DENTNet website - before launch@2x (2).png
-coverY: 0
----
+<p align="center">
+  <img src="assets/DENTNet website - before launch@2x (2).png" alt="Alt text" width="100%" />
+</p>
 
 # Introduction
 
@@ -11,4 +10,4 @@ Since the '90s, each mobile network operator has run its own software for accoun
 
 Now, many of these services can be provided by a single platform - DENT's global blockchain.
 
-This will help operators and enterprises to automate processes, reduce costs, and speed up innovation. DENTNet will be used by mobile operators and their partners such as enterprises, resellers, and service providers. DENT Wireless Limited will be the first operator using DENTNet.
+This will help operators and enterprises to automate processes, reduce costs, and speed up innovation. DENTNet will be used by mobile operators and their partners such as enterprises, resellers, and service providers. 

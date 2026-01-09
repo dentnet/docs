@@ -20,8 +20,6 @@ Follow the instructions in the [move-dents-from-ethereum-to-dentnet.md](../../..
 
 Swap the DENT token you received in the wallet to DENTX as described in the [swap-dent-on-dentnet.md](swap-dent-on-dentnet.md "mention") section using the [#dent-to-dentx-section](../../../tools/dashboard.md#dent-to-dentx-section "mention")of the DENTNet Dashboard.
 
-{% hint style="warning" %}
 Be aware, that only for the initial Swap from DENT token to DENTX, the fee is paid in DENT token. Once there is any DENTX on the wallet, all fees are paid in DENTX.&#x20;
 
 Make sure to leave enough DENTX on your account for further swaps or staking payouts.
-{% endhint %}

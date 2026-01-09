@@ -22,9 +22,7 @@ Follow these steps to move your DENT tokens to DENTNet:
   * If you **created an account on DENTNet**, e.g. using the [vault-app.md](../wallets/vault-app.md "mention"), you want to send your DENT tokens by entering the account address.
 * Double-check the accuracy of the address to avoid any errors.
 
-{% hint style="warning" %}
 DENTNet addresses always start with **dx.**
-{% endhint %}
 
 ### **4a. Transfer to DENT App - Confirm Transaction on the DENT App:**
 

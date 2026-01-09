@@ -1,8 +1,6 @@
 # Dashboard
 
-{% embed url="https://main.dentnet.io/dashboard/" %}
-Link to DENTNet Dashboard
-{% endembed %}
+[https://main.dentnet.io/dashboard/](Link to DENTNet Dashboard)
 
 The DENTNet Dashboard provides users with a web application to participate in the DENTNet staking ecosystem. Whether you're looking to stake your DENTX, track rewards, or swap your DENT token to DENTX, this section will walk you through the key features and functionalities of the dashboard.
 
@@ -14,7 +12,7 @@ First connect a supported DENTNet wallet app, such as the [vault-app.md](wallets
 
 To connect your wallet, go to the top right of the screen, click "**Connect**", and follow the prompts to connect your wallet with the dashboard.&#x20;
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-02-02 at 16.18.47.png" alt="" width="161"><figcaption></figcaption></figure>
+<figure><img src="../assets/Screenshot 2024-02-02 at 16.18.47.png" alt="" width="161"><figcaption></figcaption></figure>
 
 Please also refer to the documentation of the wallet app you are using to initiate the connection with the Staking Dashboard.
 
@@ -45,11 +43,9 @@ First, ensure your wallet is connected. Then click **Staking** on the sidebar.
 
 To start staking, find the "**Pool Membership**" card and click "**Join**". Then, type the amount of DENTX you want to add to the pool and click "**Submit**." A prompt from your wallet app will appear. Sign and approve the transaction to finish the process. If the prompt does not appear, go to your wallet app and sign the transaction there.
 
-{% hint style="warning" %}
 When joining a pool, your funds are **bonded to this pool**.&#x20;
 
 If you want to unbond funds, a locking period of **7 eras (days)** applies before you can withdraw it.
-{% endhint %}
 
 Once the transaction has been successful, you will see an updated version of the screen with the following information:
 
@@ -60,7 +56,7 @@ This shows how many DENTX you have in pools and how many you have free. You can 
 * **Increase bonded funds:** You can increase your bonded funds using the "**+**" buttons and enter the amount of DENTX you want to add. To change your bonded funds, you must sign the transaction in your wallet app.
 * **Remove bonded funds:** Click the "**-**" buttons and enter the amount of DENTX you want to remove. To change your bonded funds, you must sign the transaction in your wallet app. After removing your bonded funds, the bonding period will apply and your funds will be locked. Click "**Unlock**" button to see an overview of the rewards you will get after the era is unlocked and when the rewards will be available.
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-02-05 at 14.36.57.png" alt="" width="81"><figcaption><p>Unlock Button</p></figcaption></figure>
+<figure><img src="../assets/Screenshot 2024-02-05 at 14.36.57.png" alt="" width="81"><figcaption><p>Unlock Button</p></figcaption></figure>
 
 * **Withdraw unbonded funds:** If the bonding period is over, use the "Unlock" icon to withdraw the funds back to your wallet. You must sign the withdrawal transaction in your wallet app.
 
@@ -107,15 +103,11 @@ Ensure your wallet is connected and click "**DENT to DENTX**" on the sidebar. On
 
 Now you are ready to swap.&#x20;
 
-{% hint style="warning" %}
 Be aware that you can only swap DENT Tokens that are on a DENTNet wallet. If you still have DENTs on an Ethereum wallet, you can use the [bridge](bridge/ "mention") to transfer your DENTs to DENTNet.
-{% endhint %}
 
 To start swapping, type the number of DENT tokens you want to swap on the "**Amount to swap**" input field. You can only enter as many DENT tokens as you have in your connected wallet. By entering an amount, you will see a "**Swap preview**" on the right side of the input field, including the amount of DENTX you will receive, the fee, and the route. If satisfied with the result, click the "**Swap Now**" button below the input field. A prompt will appear for you to confirm the swap.
 
-{% hint style="danger" %}
 _Please note that the swap cannot be reversed once executed, and there is no way to swap DENTX back to DENT tokens._
-{% endhint %}
 
 Click on "**Confirm**" to process the transaction. On a successful transaction, the prompt will show you the status of the swap, DENTX you received, the fees you paid, and a link to view the transaction on [explorer.md](explorer.md "mention").&#x20;
 

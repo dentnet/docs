@@ -10,7 +10,7 @@ Follow the instructions below to set up the Vault app.&#x20;
 
 &#x20;
 
-<figure><img src="../../.gitbook/assets/IMG_9192.PNG" alt="" width="188"><figcaption><p>Screenshot of Vault app with example accounts</p></figcaption></figure>
+<figure><img src="../../assets/IMG_9192.PNG" alt="" width="188"><figcaption><p>Screenshot of Vault app with example accounts</p></figcaption></figure>
 
 ### Install App&#x20;
 
@@ -32,7 +32,7 @@ Open a browser on your computer and visit the metadata information at [https://m
 
 Open the **Vault app** on your mobile device and tap the **scan button at the bottom** of the home screen.&#x20;
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-01-31 at 17.02.15.png" alt="" width="87"><figcaption><p>Scan Button</p></figcaption></figure>
+<figure><img src="../../assets/Screenshot 2024-01-31 at 17.02.15.png" alt="" width="87"><figcaption><p>Scan Button</p></figcaption></figure>
 
 **Scan** the animated QR code with the Vault app. This process takes some time.&#x20;
 
@@ -40,9 +40,7 @@ Once finished, the Vault app will show information about the metadata added, lik
 
 Tap on the  "**Approved**" button.
 
-{% hint style="info" %}
 Future updates of DENTNet can require new metadata and therefore an additional scan of the metadata.
-{% endhint %}
 
 The Vault app is now ready to be used with DENTNet.
 

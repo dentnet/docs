@@ -1,8 +1,6 @@
 # Explorer
 
-{% embed url="https://main.dentnet.io/explorer/" %}
-Link to DENTNet Explorer
-{% endembed %}
+[https://main.dentnet.io/explorer/](Link to DENTNet Explorer)
 
 DENTNet Explorer is a blockchain explorer that allows users to interact with and explore the contents of the DENTNet blockchain. Similar to etherscan, a DENTNet explorer provides detailed information about transactions, blocks, and addresses on the blockchain. Understanding how to use DENTNet Explorer effectively helps track transactions, verify payments, and explore the activity on the blockchain. Here's a brief guide on how to use DENTNet Explorer, focusing on key elements such as extrinsic hash, account address, block hash, and block height:
 

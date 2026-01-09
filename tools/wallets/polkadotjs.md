@@ -6,7 +6,6 @@ It supports sending DENT Tokens to the DENTNet using [**DENT Bridge**](../bridge
 
 Official Link: [PolkadotJS](https://support.polkadot.network/support/solutions/articles/65000169953-polkadot-extension-where-to-download-it)
 
-{% hint style="danger" %}
 Make sure you only install browser extensions from an official trusted source. Otherwise, your funds may be at risk.
-{% endhint %}
+
 

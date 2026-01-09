@@ -8,7 +8,7 @@ The core of DENTNet uses Nominated Proof-Of-Stake. Staked funds and Validators a
 
 The connection between staked funds and Validators is established via nomination pools. Each nomination pool contains a list of Validators. Funds bonded to a nomination pool receive staking rewards based on the performance of the Validators in the pool.&#x20;
 
-A nomination pool operated by the [technical-committee.md](../../advanced-concepts/technical-committee.md "mention") is available with the launch of DENTNet. It contains the set of Validators operated by launch partners including DENT Wireless. See also the [validators.md](validators.md "mention") section for more details.
+A nomination pool operated by the [technical-committee.md](../../advanced-concepts/technical-committee.md "mention") is available with the launch of DENTNet. It contains the set of Validators operated by launch partners. See also the [validators.md](validators.md "mention") section for more details.
 
 ### Rewards and Inflation
 
@@ -20,9 +20,8 @@ DENTNet targets an amount at stake of **50%** of the issued DENTX. When this is 
 
 This table shows the **approximate** staking reward and inflation rates based on the staking rate.
 
-{% hint style="warning" %}
 These values are **targets** that DENTNet algorithms try to achieve. **They are not guaranteed.**&#x20;
-{% endhint %}
+
 
 | Staking ratio | Staking reward rate | Inflation rate |
 | ------------- | ------------------- | -------------- |
@@ -44,9 +43,7 @@ Stakers receive staking rewards in the form of DENTX.
 
 The payout needs to be requested. You can request payouts using the [dashboard.md](../../../tools/dashboard.md "mention").&#x20;
 
-{% hint style="warning" %}
 If not requested, payouts **expire** after 84 days.
-{% endhint %}
 
 Please visit your Staking Dashboard regularly to don't miss your rewards.
 

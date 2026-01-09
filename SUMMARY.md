@@ -27,8 +27,6 @@
   * [Telco Asset Expiry](overview/advanced-concepts/telco-asset-expiry.md)
   * [Technical Committee](overview/advanced-concepts/technical-committee.md)
 * [Start with DENTX](overview/start-with-dentx/README.md)
-  * [Uniswap](overview/start-with-dentx/uniswap/README.md)
-    * [DENTX on Ethereum](overview/start-with-dentx/uniswap/dentx-on-ethereum.md)
   * [Swap on DENTNet](overview/start-with-dentx/swap-on-dentnet/README.md)
     * [Swap DENT on DENTNet](overview/start-with-dentx/swap-on-dentnet/swap-dent-on-dentnet.md)
   * [Buy on DENTNet](overview/start-with-dentx/buy-on-dentnet.md)
@@ -62,4 +60,4 @@
   * [Validator Monitoring](technical-documentation/operating-a-validator/validator-monitoring.md)
   * [Pause Validation](technical-documentation/operating-a-validator/pause-validation.md)
   * [Upgrade or move a validator](technical-documentation/operating-a-validator/upgrade-or-move-a-validator.md)
-* [Changelog](technical-documentation/changelog.md)
+
